@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header_superior {
+  background: #fff;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_div {
+  justify-self: flex-start;
+}
+
+.nav_sup {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.search_button {
+  height: 100%;
+  padding: 5px;
+  padding-left: 20px !important;
+  border-left: 1px #5a5a5a solid;
+}
+
+.search_button img {
+  filter: invert(31%) sepia(86%) saturate(6352%) hue-rotate(345deg) brightness(87%) contrast(90%);
+}
+
+.login_buttons {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login_buttons a {
+  text-decoration: none;
+  color: #fff;
+  background: #D52531;
+  margin: 10px;
+  padding: 8px 25px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 10pt;
+}
+
+.login_buttons a img {
+  filter: invert(100%) sepia(7%) saturate(4827%) hue-rotate(227deg) brightness(117%) contrast(103%);
+  height: 20px;
+  margin-left: 10px;
+  transform: scale(1.2);
+}
+
+.dates_sup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 11pt;
+  color: gray;
+}
+
+.dates_sup P {
+  margin: 0% 20px;
+}
+
+.header_info {
+  background: #4E4E4E;
+  color: #cecece;
+  white-space: nowrap;
+  overflow-y: hidden;
+  padding: 8px 40px;
+}
+
+.header_info p {
+  margin: 0%;
+  overflow: auto;
+}
+
+.header_info p::-webkit-scrollbar {
+  display: none;
+}
+
+.header_inferior {
+  padding: 15px 50px;
+  background-color: #ECECEC;
+}
+
+.header_inferior div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px gray solid;
+  padding-bottom: 8px;
+}
+
+.header_inferior a {
+  text-decoration: none;
+  color: gray;
+  padding: 4px;
+}
+
+.header_inferior a:hover {
+  color: #D52531;
+  border-bottom: 3px #D52531 solid;
+}
