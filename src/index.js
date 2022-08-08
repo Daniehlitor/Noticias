@@ -6,29 +6,31 @@ import reportWebVitals from './reportWebVitals';
 
 import { storyblokInit, apiPlugin } from "@storyblok/react";
 
-import Page from './components/Page'
-import Teaser from './components/Teaser'
-import Grid from './components/Grid'
-import Feature from './components/Feature'
 import Header from './components/Header';
 import NavItem from './components/NavItem';
 import NavBar from './components/NavBar';
-
+import Footer from './components/Footer';
+import SocialItem from './components/SocialItem';
+import SliderPrincipalPortada from './components/SliderPrincipalPortada';
+import Page from './components/Page';
+import Noticia from './components/Noticia';
+import Destacado from './components/Destacado';
 
 storyblokInit({
   accessToken: "iUYEBUr3MrXeIW2WYATa5Att",
   use: [apiPlugin],
   components: {
     page: Page,
-    teaser: Teaser,
-    grid: Grid,
-    feature: Feature,
     header: Header,
     nav_item: NavItem,
-    nav_bar: NavBar
+    nav_bar: NavBar,
+    footer: Footer,
+    social_item: SocialItem,
+    slider_principal_portada: SliderPrincipalPortada,
+    noticia: Noticia,
+    destacados: Destacado
   }
 });
-
 
 ReactDOM.render(
   <React.StrictMode>

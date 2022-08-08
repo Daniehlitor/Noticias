@@ -2,7 +2,6 @@ import { StoryblokComponent, storyblokEditable } from '@storyblok/react'
 import React from 'react'
 
 export default function NavBar({ blok }) {
-    console.log(blok);
     return (
         <div {...storyblokEditable(blok)} className='header_inferior'>
             <div>
